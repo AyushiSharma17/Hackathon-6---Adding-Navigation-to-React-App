@@ -9,16 +9,24 @@ class App extends Component {
             <div id="main">
             <BrowserRouter>
             <LocationDisplay />
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
             
             <Switch>
                 <Route exact path="/about">
-                    <div>You are on the about page</div>
+                <>  
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <div>You are on the about page</div>
+                </>
                 </Route>
+
                 <Route exact path="/">
+                <>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
                     <Home />
+                </>
                 </Route>
+            
                 <Route path="*">
                     <div>No match</div>
                 </Route>
