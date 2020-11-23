@@ -1,5 +1,5 @@
 import React, {Component, useState} from "react";
-import {useLocation, BrowserRouter,Switch, Route} from 'react-router-dom';
+import {useLocation, BrowserRouter,Switch, Route, Link} from 'react-router-dom';
 import '../styles/App.css';
 
 class App extends Component {
