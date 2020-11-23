@@ -34,7 +34,7 @@ function Home () {
     return <div>You are home</div>;
 }
 
-function LocationDisplay() {
+export function LocationDisplay() {
     const {pathname} = useLocation();
     return <div data-testid="location-display" >{pathname}</div> ;
 }
