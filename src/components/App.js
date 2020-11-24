@@ -7,7 +7,7 @@ class App extends Component {
 
         return(
             <div id="main">
-            <BrowserRouter>
+            
             <LocationDisplay />
             
             <Switch>
@@ -32,7 +32,6 @@ class App extends Component {
                 </Route>
                 
             </Switch>
-            </BrowserRouter>
                
             </div>
         );
